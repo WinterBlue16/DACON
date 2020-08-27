@@ -42,3 +42,6 @@
 
 기본 RNN vs Stacked RNN(장점 및 단점)
 
+
+
+참고 : https://m.blog.naver.com/ekbae98/221265719881
