@@ -23,8 +23,10 @@
 
 > 정확도 상승에 유의미한 영향을 미쳤던 파라미터를 정리하고 최적 파라미터 탐색
 
-1. TRAIN_DF normalize ewm(alpha)
-2. THRESHOLD
+본 대회에서 조정했던 파라미터는 다음과 같습니다. 정확도 향상에 큰 영향을 미쳤던 파라미터는 볼드체로 표시하였습니다. 
+
+1. **TRAIN_DF normalize ewm(alpha)**
+2. **THRESHOLD**
 3. N_HIDDENS
 4. N_LAYERS
 5. BATCH_SIZE
