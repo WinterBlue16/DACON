@@ -37,6 +37,10 @@
 
 - 최적 파라미터
 
+| TRAIN_DF normalize ewm(alpha) | THRESHOLD | N_HIDDENS | N_LAYERS | BATCH_SIZE | WINDOW_GIVEN | WINDOW_SIZE |
+| :---------------------------: | :-------: | :-------: | :------: | :--------: | :----------: | :---------: |
+|             0.81              |   0.391   |           |          |     32     |              |             |
+
 
 
 ## 3. 개선점
