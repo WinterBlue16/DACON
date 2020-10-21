@@ -25,6 +25,8 @@
 
 본 대회에서 조정했던 파라미터는 다음과 같습니다. 정확도 향상에 큰 영향을 미쳤던 파라미터는 볼드체로 표시하였습니다. 
 
+
+
 1. **TRAIN_DF normalize ewm(alpha)**
 2. **THRESHOLD**
 3. N_HIDDENS
@@ -35,11 +37,15 @@
 
 
 
+초반에는 THRESHOLD를 조정하며 정확도의 변화 추이를 관찰하였습니다. 
+
+
+
 - 최적 파라미터
 
-| TRAIN_DF normalize ewm(alpha) | THRESHOLD | N_HIDDENS | N_LAYERS | BATCH_SIZE | WINDOW_GIVEN | WINDOW_SIZE |
-| :---------------------------: | :-------: | :-------: | :------: | :--------: | :----------: | :---------: |
-|             0.81              |   0.391   |           |          |     32     |              |             |
+| TRAIN_DF normalize ewm(alpha) | THRESHOLD | N_HIDDENS | N_LAYERS | BATCH_SIZE | WINDOW_GIVEN | WINDOW_SIZE | train_batchsize |
+| :---------------------------: | :-------: | :-------: | :------: | :--------: | :----------: | :---------: | :-------------: |
+|             0.81              |   0.391   |    100    |    3     |    512     |      89      |     90      |       32        |
 
 
 
